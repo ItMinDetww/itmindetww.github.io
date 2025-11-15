@@ -42,13 +42,13 @@ Clean, modern design for easy reading
 
 Technologies Used
 
-HTML
+HTML5
 
-CSS
+CSS3
 
-JS
 
 ! Acknowledgment !
 
 Thank you for taking the time to review my work.
+
 Your attention and feedback are truly appreciated! ☺☺☺
