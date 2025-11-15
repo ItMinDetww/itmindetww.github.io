@@ -19,8 +19,8 @@ body {
     width: 800px;
     height: 500px;
     margin: 50px auto;
-    border-left: 10px solid #008a91;
-    border-right: 10px solid #008a91;
+    border-left: 10px solid #6dd5fa;
+    border-right: 10px solid #6dd5fa;
     box-sizing: border-box;
     position: relative;
 }
@@ -31,7 +31,7 @@ body {
     left: -15px;
     width: 810px;
     height: 40px;
-    background: #008a91;
+    background: #56b1d3;
     z-index: 20;
     overflow: hidden;
 }
@@ -42,7 +42,7 @@ body {
 .border-top::before {
     content: '';
     position: absolute;
-    background: #008a91;
+    background: #6dd5fa;
     top: 0;
     left: -80px;
     height: 40px;
@@ -58,7 +58,7 @@ body {
 .border-bottom::before {
     content: '';
     position: absolute;
-    background: #008a91;
+    background: #6dd5fa;
     top: 0px;
     left: -80px;
     height: 40px;
