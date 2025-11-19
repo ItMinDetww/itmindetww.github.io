@@ -393,3 +393,12 @@ body {
     z-index: 15;
 }
 
+#btn {
+padding: 12px 22px;
+background: #54a8ed;
+color: white;
+font-size: 17px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}

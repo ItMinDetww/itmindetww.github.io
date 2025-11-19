@@ -66,5 +66,22 @@
             <div class="filter"></div>
         </div>
     </div>
+    <audio id="music" src="music2.mp3"></audio>
+    <button id="btn">▶ Phát nhạc</button>
+    <script>
+        const audio = document.getElementById("music");
+        const btn = document.getElementById("btn");
+
+
+        btn.onclick = () => {
+        if (audio.paused) {
+        audio.play();
+        btn.textContent = "⏸Tắt nhạc";
+        } else {
+        audio.pause();
+        btn.textContent = " ▶ Phát nhạc";
+        }
+        };
+</script>
 </body>
 </html>
